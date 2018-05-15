@@ -1,0 +1,47 @@
+/*
+
+Your styles go here!
+
+Hint! You'll probably want to start by styling:
+  * <body>
+  * <article>
+  * <h1>
+  * <img>
+
+I've left some boilerplate below for you.
+
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'open sans', sans-serif;
+  width: 100%;
+  margin: 0 auto;
+}
+
+main.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+article {
+  max-width: 50em;
+  width: 100%;
+  margin: 0 auto 25px auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+img, embed, object, video {
+  max-width: 100%;
+}
+
+nav a, button {
+  min-width: 48px;
+  min-height: 48px;
+}
