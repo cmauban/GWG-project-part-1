@@ -25,6 +25,7 @@ body {
 main.container {
   width: 90%;
   margin: 0 auto;
+  border-bottom: 1px solid #c3c3c3;
 }
 
 article {
@@ -44,4 +45,21 @@ img, embed, object, video {
 nav a, button {
   min-width: 48px;
   min-height: 48px;
+}
+
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+footer [class*="zocial-"]:before {
+  font-size: 1.5em;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+}
+
+footer #social {
+  margin-bottom: 20px;
 }
