@@ -34,6 +34,10 @@ article {
   margin: 0 auto 25px auto;
 }
 
+figure {
+  margin: 1em 0 1em 0;
+}
+
 h1 {
   text-align: center;
 }
